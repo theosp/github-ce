@@ -7,5 +7,15 @@
     "16": "media/icons/icon16.png",
     "48": "media/icons/icon48.png",
     "128": "media/icons/icon128.png"
-  }
+  },
+
+  "content_scripts": [
+
+    // Make long issues titles visible
+    {
+      "matches": ["*://github.com/*/issues*"],
+      "css": ["content_scripts/visible_long_issues_titles/style.css"]
+    }
+
+  ]
 }
