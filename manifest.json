@@ -1,0 +1,11 @@
+{
+  "name": "githubCE",
+  "version": "0.0.0",
+
+  "description": "githubCE - github Chrome Extension - User interface enhancements for github",
+  "icons": { 
+    "16": "media/icons/icon16.png",
+    "48": "media/icons/icon48.png",
+    "128": "media/icons/icon128.png"
+  }
+}
