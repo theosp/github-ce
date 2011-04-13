@@ -9,13 +9,7 @@
     "128": "media/icons/icon128.png"
   },
 
-  "content_scripts": [
-
-    // Make long issues titles visible
-    {
-      "matches": ["*://github.com/*/issues*"],
-      "css": ["content_scripts/visible_long_issues_titles/style.css"]
-    }
-
+  "permissions": [
+    "tabs", "*://github.com/*/issues*"
   ]
 }
