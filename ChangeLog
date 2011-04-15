@@ -1,3 +1,8 @@
+2011.04.13, Version 0.0.2
+
+* github improved the issues interface - the visible_long_issues_titles content
+scripts isn't needed any more.
+
 2011.03.18, Version 0.0.1
 
 * Introduce the content scripts that makes long issues titles visible
